@@ -142,7 +142,6 @@ img {
 @media screen and (max-width: 480px) {
     * {
         width: 100%;
-        margin: 0 auto;
     }
 
     .row {
@@ -153,4 +152,16 @@ img {
         width: 100%;
         margin: 1rem auto;
     }
+
+    .why-us {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-bottom: 0;
+        background-color: #222222;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+    
 }
