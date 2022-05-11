@@ -129,6 +129,7 @@ img {
  ************************************************/
 
 /* tablet */
+
 /* per non rompere prima di 768 @media screen and (max-width: 1140px) */
 @media screen and (max-width: 768px) {
     .container {
@@ -137,3 +138,19 @@ img {
 }
 
 /* mobile */
+
+@media screen and (max-width: 480px) {
+    * {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row .col {
+        width: 100%;
+        margin: 1rem auto;
+    }
+}
