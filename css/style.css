@@ -129,9 +129,11 @@ img {
  ************************************************/
 
 /* tablet */
-
+/* per non rompere prima di 768 @media screen and (max-width: 1140px) */
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
     }
 }
+
+/* mobile */
